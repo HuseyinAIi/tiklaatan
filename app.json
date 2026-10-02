@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Tıkla Atan",
+    "slug": "tiklaatan",
+    "scheme": "tiklaatan",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tiklaatan.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "ÖSYM sonuç belgenizin görselini seçebilmek için galeri erişimi gerekir."
+      }
+    },
+    "android": {
+      "package": "com.tiklaatan.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ÖSYM sonuç belgenizin görselini seçebilmek için galeri erişimi gerekir."
+        }
+      ],
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "18da9525-d0bf-4d69-a50e-46da99ea9b06"
+      }
+    },
+    "owner": "huseyinaliyigit"
+  }
+}

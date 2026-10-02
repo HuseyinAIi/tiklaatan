@@ -1,0 +1,13 @@
+# EAS bulut derlemesine GÖNDERİLMEYECEK dosyalar.
+# .env bilerek hariç tutulmadı: yapay zekâ anahtarları ve sunucu adresi APK'ya derleme sırasında gömülür.
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+android/
+ios/
+server/
+public/
+*.bat
+tıkla atan bannmer text.png
