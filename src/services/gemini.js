@@ -154,7 +154,7 @@ Belgeyi dikkatle oku ve SADECE aşağıdaki yapıda geçerli bir JSON döndür (
 {
   "osymBelgesi": true veya false (bu gerçekten ÖSYM KPSS sonuç belgesi mi),
   "sinavAdi": "örn. 2026 KPSS Ortaöğretim" veya null,
-  "sinavYili": sayı veya null,
+  "sinavYili": sınavın yapıldığı yıl, sayı veya null (belge başlığındaki "2026 KPSS" gibi ifadeden al),
   "adSoyad": metin veya null,
   "puanlar": { "P3": sayı veya null, "P93": sayı veya null, "P94": sayı veya null },
   "dogrulamaKodu": metin veya null,
@@ -167,7 +167,7 @@ Kurallar:
 - "supheliDurum" yalnızca puan, puan türü veya sınav bilgisi alanlarında oynama/silinti/yapıştırma izi varsa ya da belge ÖSYM belgesi gibi görünmüyorsa doldurulur.
 - Okuyamadığın alanı null bırak.`;
 
-/** Sonuç belgesini okur. */
+/** Sonuç belgesini okur. beyanPuan yalnızca demo modunda kullanılır. */
 export async function belgeOku({ base64, mimeType, beyanPuan, puanTuru }) {
   if (!aiAktif()) {
     // DEMO MODU: Yapay zekâ anahtarı yoksa belge "okunmuş gibi" yapılır.
@@ -178,7 +178,7 @@ export async function belgeOku({ base64, mimeType, beyanPuan, puanTuru }) {
       sinavAdi: 'KPSS 2026 (demo)',
       sinavYili: 2026,
       adSoyad: 'Demo Kullanıcı',
-      puanlar: { P3: null, P93: null, P94: null, [puanTuru]: Number(beyanPuan) },
+      puanlar: { P3: null, P93: null, P94: null, [puanTuru]: beyanPuan != null ? Number(beyanPuan) : 70 },
       dogrulamaKodu: 'DEMO-0000',
       supheliDurum: null,
     };

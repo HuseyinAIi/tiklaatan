@@ -36,7 +36,7 @@ export default function ProfilEkrani() {
             <Text style={s.ad}>{app.adSoyad ? baslikDuzen(app.adSoyad) : 'Misafir kullanıcı'}</Text>
             <View style={{ marginTop: 6 }}>
               {app.dogrulandi ? (
-                <Durum renk={colors.green} etiket={app.demoDogrulama ? 'Demo doğrulama' : 'ÖSYM ile doğrulandı'} kucuk />
+                <Durum renk={colors.green} etiket={app.demoDogrulama ? 'Demo doğrulama' : app.manuelPuan ? 'Puan elle girildi' : 'ÖSYM ile doğrulandı'} kucuk />
               ) : (
                 <Durum renk={colors.sonGun} etiket="Doğrulanmadı" kucuk />
               )}
@@ -55,6 +55,8 @@ export default function ProfilEkrani() {
       <BolumBasligi>Hesap</BolumBasligi>
       <Cam radius={radius.xl} style={{ paddingHorizontal: 16 }}>
         <Satir ikon="ribbon-outline" etiket="Eğitim düzeyi" deger={PUAN_TURLERI.find((p) => p.kod === app.puanTuru)?.egitim} />
+        <Satir ikon="mail-outline" etiket="E-posta" deger={app.profil?.eposta || '—'} />
+        <Satir ikon="school-outline" etiket="Bölüm / program" deger={app.profil?.bolum || '—'} />
         <Satir ikon="calendar-outline" etiket="Sınav yılı" deger={app.sinavYili || '—'} />
         <Satir ikon="analytics-outline" etiket="Simülasyon sayısı" deger={app.gecmis.length} son />
       </Cam>

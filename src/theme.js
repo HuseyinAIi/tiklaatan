@@ -75,3 +75,11 @@ export const PUAN_TURLERI = [
 
 export const BRAND = 'Tıkla Atan';
 export const TAB_BAR_ALAN = 96; // içerik alt boşluğu (alt menünün altında kalmasın)
+
+// Yalnızca bu yılın KPSS sonuç belgesi kabul edilir (eski yıl belgeleri reddedilir).
+export const KPSS_YILI = 2026;
+
+export const CINSIYETLER = [
+  { kod: 'kadin', ad: 'Kadın' },
+  { kod: 'erkek', ad: 'Erkek' },
+];

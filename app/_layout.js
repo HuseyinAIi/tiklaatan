@@ -1,11 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, Platform, StyleSheet } from 'react-native';
-import { Stack } from 'expo-router';
+import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useFonts, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold } from '@expo-google-fonts/inter';
-import { AppProvider } from '../src/context/AppContext';
+import { AppProvider, useApp } from '../src/context/AppContext';
 import { colors } from '../src/theme';
+
+/** İlk açılış: tanıtım kartları → giriş → uygulama. */
+function GirisYonlendirici() {
+  const { yuklendi, onboardingTamam, girisYapildi } = useApp();
+  const segments = useSegments();
+  const router = useRouter();
+  const ilk = segments[0];
+
+  useEffect(() => {
+    if (!yuklendi) return;
+    if (!onboardingTamam) {
+      if (ilk !== 'onboarding') router.replace('/onboarding');
+    } else if (!girisYapildi) {
+      if (ilk !== 'giris') router.replace('/giris');
+    } else if (ilk === 'onboarding' || ilk === 'giris') {
+      router.replace('/');
+    }
+  }, [yuklendi, onboardingTamam, girisYapildi, ilk, router]);
+
+  return null;
+}
 
 export default function RootLayout() {
   const [yuklendi, hata] = useFonts({ Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold });
@@ -16,10 +37,13 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <AppProvider>
         <StatusBar style="dark" />
+        <GirisYonlendirici />
         {/* Bilgisayarda (web) telefon genişliğinde ortalanmış görünüm */}
         <View style={Platform.OS === 'web' ? s.webDis : s.tam}>
           <View style={Platform.OS === 'web' ? s.webTelefon : s.tam}>
             <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
+              <Stack.Screen name="onboarding" options={{ animation: 'fade' }} />
+              <Stack.Screen name="giris" options={{ animation: 'fade' }} />
               <Stack.Screen name="(tabs)" />
               <Stack.Screen name="dogrula" />
               <Stack.Screen name="ilan/[id]" />

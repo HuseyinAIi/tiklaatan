@@ -5,10 +5,10 @@ import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, F, radius } from '../../src/theme';
 import { Ekran, BuyukBaslik, Cam, Buton, yazi } from '../../src/components/ui';
-import { ProgramAramaPenceresi, TercihDetayPenceresi, AiDoldurPenceresi } from '../../src/components/TercihPencereleri';
+import { ProgramAramaPenceresi, TercihDetayPenceresi } from '../../src/components/TercihPencereleri';
 import { useApp } from '../../src/context/AppContext';
 import { uyari } from '../../src/uyari';
-import { kilavuzGetir, durumGetir, listeKaydet, otomatikDoldur, programAdi, birlesikSans, sansEtiketi, MAKS_TERCIH } from '../../src/services/tercihMerkez';
+import { kilavuzGetir, durumGetir, listeKaydet, programAdi, birlesikSans, sansEtiketi, MAKS_TERCIH } from '../../src/services/tercihMerkez';
 
 export default function TercihEkrani() {
   const app = useApp();
@@ -17,10 +17,8 @@ export default function TercihEkrani() {
   const [kilavuz, setKilavuz] = useState(null);
   const [durum, setDurum] = useState(null);
   const [hata, setHata] = useState(null);
-  const [pencere, setPencere] = useState(null); // 'ara' | 'ai' | { detay: index }
+  const [pencere, setPencere] = useState(null); // 'ara' | { detay: index }
   const [kaydediliyor, setKaydediliyor] = useState(false);
-  const [aiYukleniyor, setAiYukleniyor] = useState(false);
-  const [aiBilgi, setAiBilgi] = useState(null);
 
   const yukle = useCallback(async () => {
     try {
@@ -68,25 +66,6 @@ export default function TercihEkrani() {
     }
   };
 
-  const aiOlustur = async (secenek) => {
-    if (!kilavuz) return;
-    setAiYukleniyor(true);
-    try {
-      const r = await otomatikDoldur({ kilavuz, puan: app.puan, puanTuru: app.puanTuru, ...secenek });
-      if (!r.tercihler.length) {
-        uyari('Uygun program bulunamadı', 'Seçtiğin il/bölüm ve mezuniyetle eşleşen program yok. Filtreleri genişletip tekrar dene.');
-        return;
-      }
-      app.tercihListesiAyarla(r.tercihler);
-      setAiBilgi(
-        `${r.tercihler.length} tercih ${r.yzKullanildi ? 'yapay zekâ tarafından notuna göre' : 'puanına göre'} sıralandı (${r.havuzBoyutu} uygun program içinden). Kontrol edip kaydet.`,
-      );
-      setPencere(null);
-    } finally {
-      setAiYukleniyor(false);
-    }
-  };
-
   if (!app.dogrulandi) {
     return (
       <Ekran>
@@ -98,6 +77,22 @@ export default function TercihEkrani() {
             Tercih listesi ve diğer adaylarla yerleştirme simülasyonu yalnızca ÖSYM belgesiyle doğrulanmış puanla çalışır.
           </Text>
           <Buton etiket="Puanını doğrula" ikon="shield-checkmark-outline" onPress={() => router.push('/dogrula')} style={{ marginTop: 16, alignSelf: 'stretch' }} />
+        </Cam>
+      </Ekran>
+    );
+  }
+
+  // Gerçek ÖSYM kılavuzu yayımlanana kadar tercih bölümü kapalı.
+  if (kilavuz?.ornek) {
+    return (
+      <Ekran>
+        <BuyukBaslik baslik="Tercih" alt="KPSS merkezi yerleştirme tercih listesi." />
+        <Cam radius={radius.xl} style={{ padding: 24, alignItems: 'center' }}>
+          <Ionicons name="hourglass-outline" size={30} color={colors.navy} />
+          <Text style={[yazi.kartBaslik, { marginTop: 10 }]}>Merkezi atama: yakında</Text>
+          <Text style={[yazi.soluk, { textAlign: 'center', marginTop: 6 }]}>
+            Tercih bölümü, ÖSYM tercih kılavuzu yayımlandığında kılavuzla birlikte açılacak. Listeni kılavuzdaki programlardan kendin oluşturacaksın.
+          </Text>
         </Cam>
       </Ekran>
     );
@@ -160,10 +155,8 @@ export default function TercihEkrani() {
       </Cam>
 
       <View style={{ flexDirection: 'row', gap: 10, marginTop: 14 }}>
-        <Buton etiket="Yapay zekâ ile doldur" ikon="sparkles" onPress={() => setPencere('ai')} disabled={!kilavuz} style={{ flex: 1.25 }} />
-        <Buton etiket="Kılavuzdan ekle" ikon="add" tip="ikincil" onPress={() => setPencere('ara')} disabled={!kilavuz} style={{ flex: 1 }} />
+        <Buton etiket="Kılavuzdan ekle" ikon="add" onPress={() => setPencere('ara')} disabled={!kilavuz} style={{ flex: 1 }} />
       </View>
-      {aiBilgi ? <Text style={[s.not, { marginTop: 8 }]}>✨ {aiBilgi}</Text> : null}
 
       {/* ÖSYM tarzı tercih tablosu */}
       <Cam radius={radius.lg} style={{ marginTop: 16 }}>
@@ -266,15 +259,6 @@ export default function TercihEkrani() {
         puanTuru={app.puanTuru}
         mevcut={liste}
         ekle={ekle}
-      />
-      <AiDoldurPenceresi
-        gorunur={pencere === 'ai'}
-        kapat={() => setPencere(null)}
-        kilavuz={kilavuz}
-        puanTuru={app.puanTuru}
-        yukleniyor={aiYukleniyor}
-        olustur={aiOlustur}
-        mevcutSayi={liste.length}
       />
       <TercihDetayPenceresi
         gorunur={detayTercih != null}

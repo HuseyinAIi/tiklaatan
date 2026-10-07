@@ -5,8 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import * as DocumentPicker from 'expo-document-picker';
 import { uyari } from '../src/uyari';
-import { colors, F, radius, PUAN_TURLERI } from '../src/theme';
-import { Ekran, BuyukBaslik, Cam, Buton, Alan, yazi } from '../src/components/ui';
+import { colors, F, radius, PUAN_TURLERI, CINSIYETLER, KPSS_YILI } from '../src/theme';
+import { Ekran, BuyukBaslik, Cam, Buton, Alan, Chip, yazi } from '../src/components/ui';
 import { useApp } from '../src/context/AppContext';
 import { belgeOku, uriToBase64, aiAktif } from '../src/services/gemini';
 
@@ -19,7 +19,10 @@ export default function DogrulaEkrani() {
   const router = useRouter();
   const app = useApp();
   const [puanTuru, setPuanTuru] = useState(app.puanTuru);
+  const [cinsiyet, setCinsiyet] = useState(app.profil?.cinsiyet || null);
   const [puanText, setPuanText] = useState('');
+  const [okuma, setOkuma] = useState(null); // son başarılı belge okuması (2026 kontrolünden geçmiş)
+  const [elle, setElle] = useState(false); // "Notum yanlış okundu" → elle giriş
   const [belge, setBelge] = useState(null); // { ad, mimeType, base64?, uri }
   const [yukleniyor, setYukleniyor] = useState(false);
   const [sonuc, setSonuc] = useState(null); // { basarili, mesaj, okunan }
@@ -42,52 +45,66 @@ export default function DogrulaEkrani() {
     setSonuc(null);
   };
 
+  const yilGecerli = (okuma) => {
+    const yil = Number(okuma.sinavYili) || Number(String(okuma.sinavAdi || '').match(/20\d\d/)?.[0]);
+    if (yil === KPSS_YILI) return null;
+    return yil
+      ? `Bu belge ${yil} yılına ait. Yalnızca ${KPSS_YILI} KPSS sonuç belgesi kabul edilir.`
+      : `Belgedeki sınav yılı okunamadı. Yalnızca ${KPSS_YILI} KPSS sonuç belgesi kabul edilir; daha net bir görsel veya PDF deneyin.`;
+  };
+
+  const tamamla = (okuma, puan, manuel) => {
+    app.dogrula({ puan, puanTuru, adSoyad: okuma.adSoyad, sinavYili: Number(okuma.sinavYili) || KPSS_YILI, demo: okuma.demo, cinsiyet, manuel });
+    setSonuc({
+      basarili: true,
+      mesaj: okuma.demo
+        ? `Demo modunda doğrulandı (${puanTuru}: ${puan}). Gerçek okuma için .env dosyasına Gemini/Groq anahtarı ekleyin.`
+        : `Tebrikler${okuma.adSoyad ? ` ${okuma.adSoyad}` : ''}! ${puanTuru} puanınız ${puan} olarak ${manuel ? 'kaydedildi (elle girildi)' : 'doğrulandı'}.`,
+    });
+  };
+
   const dogrula = async () => {
-    const beyan = puanParse(puanText);
-    if (beyan == null || beyan < 0 || beyan > 100) return uyari('Puan hatalı', 'Lütfen KPSS puanınızı girin (örn. 83.45).');
+    if (!cinsiyet) return uyari('Cinsiyet gerekli', 'Lütfen cinsiyetini seç.');
     if (!belge) return uyari('Belge gerekli', 'ÖSYM sonuç belgenizin görselini veya PDF\'ini seçin.');
     if (app.kalanHak <= 0) return uyari('Hakkınız kalmadı', 'Doğrulama hakkınız bitti. Destek ile iletişime geçin.');
 
     setYukleniyor(true);
     setSonuc(null);
+    setOkuma(null);
+    setElle(false);
     try {
       const base64 = belge.base64 || (await uriToBase64(belge.uri));
-      const okuma = await belgeOku({ base64, mimeType: belge.mimeType, beyanPuan: beyan, puanTuru });
+      const r = await belgeOku({ base64, mimeType: belge.mimeType, puanTuru });
       app.hakKullan();
 
-      if (!okuma.osymBelgesi) {
-        setSonuc({ basarili: false, mesaj: 'Yüklenen dosya ÖSYM KPSS sonuç belgesi olarak tanınmadı.' });
-        return;
-      }
-      if (okuma.supheliDurum) {
-        setSonuc({ basarili: false, mesaj: `Belgede şüpheli durum tespit edildi: ${okuma.supheliDurum}` });
-        return;
-      }
-      const okunan = okuma.puanlar?.[puanTuru];
+      if (!r.osymBelgesi) return setSonuc({ basarili: false, mesaj: 'Yüklenen dosya ÖSYM KPSS sonuç belgesi olarak tanınmadı.' });
+      if (r.supheliDurum) return setSonuc({ basarili: false, mesaj: `Belgede şüpheli durum tespit edildi: ${r.supheliDurum}` });
+      const yilHata = yilGecerli(r);
+      if (yilHata) return setSonuc({ basarili: false, mesaj: yilHata });
+
+      setOkuma(r);
+      const okunan = r.puanlar?.[puanTuru];
       if (okunan == null) {
-        const bulunan = Object.entries(okuma.puanlar || {})
+        const bulunan = Object.entries(r.puanlar || {})
           .filter(([k, v]) => k !== 'diger' && v != null)
           .map(([k, v]) => `${k}: ${v}`)
           .join(', ');
-        setSonuc({ basarili: false, mesaj: `Belgede ${puanTuru} puanı bulunamadı.${bulunan ? ` Bulunan puanlar: ${bulunan}` : ''}` });
-        return;
+        return setSonuc({ basarili: false, mesaj: `Belgede ${puanTuru} puanı okunamadı.${bulunan ? ` Bulunan puanlar: ${bulunan}. Puan türünü değiştirmeyi deneyin.` : ''}` });
       }
-      if (Math.abs(Number(okunan) - beyan) > 0.011) {
-        setSonuc({ basarili: false, mesaj: `Belgede okunan ${puanTuru} puanı ${okunan}, girdiğiniz puan ${beyan}. Puanlar eşleşmiyor.` });
-        return;
-      }
-      app.dogrula({ puan: Number(okunan), puanTuru, adSoyad: okuma.adSoyad, sinavYili: okuma.sinavYili, demo: okuma.demo });
-      setSonuc({
-        basarili: true,
-        mesaj: okuma.demo
-          ? `Demo modunda doğrulandı (${puanTuru}: ${okunan}). Gerçek okuma için .env dosyasına Gemini anahtarı ekleyin.`
-          : `Tebrikler${okuma.adSoyad ? ` ${okuma.adSoyad}` : ''}! ${puanTuru} puanınız ${okunan} olarak doğrulandı.`,
-      });
+      tamamla(r, Number(okunan), false);
     } catch (e) {
       setSonuc({ basarili: false, mesaj: e.message || 'Bir hata oluştu.' });
     } finally {
       setYukleniyor(false);
     }
+  };
+
+  // "Notum yanlış okundu": belge zaten 2026 kontrolünden geçti; puanı kullanıcı elle girer (yeni hak harcanmaz).
+  const elleKaydet = () => {
+    const p = puanParse(puanText);
+    if (p == null || p < 0 || p > 100) return uyari('Puan hatalı', 'Lütfen KPSS puanınızı girin (örn. 83.45).');
+    tamamla(okuma, p, true);
+    setElle(false);
   };
 
   return (
@@ -129,12 +146,16 @@ export default function DogrulaEkrani() {
           </View>
 
           <View style={s.ayrac} />
-          <Adim no="2" baslik="Puanını belgede yazdığı gibi gir" />
-          <Alan value={puanText} onChangeText={setPuanText} placeholder="Örn. 71,19513" keyboardType="decimal-pad" inputStyle={{ fontFamily: F.b, fontSize: 20 }} />
+          <Adim no="2" baslik="Cinsiyetini seç" />
+          <View style={{ flexDirection: 'row' }}>
+            {CINSIYETLER.map((c) => (
+              <Chip key={c.kod} etiket={c.ad} secili={cinsiyet === c.kod} onPress={() => setCinsiyet(c.kod)} />
+            ))}
+          </View>
 
           <View style={s.ayrac} />
-          <Adim no="3" baslik="Sonuç belgeni yükle" />
-          <Text style={[yazi.soluk, { marginBottom: 12 }]}>ÖSYM AİS’ten indirdiğin PDF ya da karekodlu sonuç belgesinin ekran görüntüsü.</Text>
+          <Adim no="3" baslik={`${KPSS_YILI} KPSS sonuç belgeni yükle`} />
+          <Text style={[yazi.soluk, { marginBottom: 12 }]}>ÖSYM AİS’ten indirdiğin PDF ya da karekodlu sonuç belgesinin ekran görüntüsü. Puanını yapay zekâ kendisi okur; elle girmene gerek yok.</Text>
 
           {belge ? (
             <View style={s.secilen}>
@@ -180,6 +201,17 @@ export default function DogrulaEkrani() {
             <Ionicons name={sonuc.basarili ? 'checkmark-circle' : 'alert-circle'} size={22} color={sonuc.basarili ? colors.green : colors.red} />
             <Text style={s.sonucText}>{sonuc.mesaj}</Text>
           </View>
+        ) : null}
+        {okuma && !elle ? (
+          <Pressable onPress={() => setElle(true)} style={{ alignSelf: 'center', marginTop: 14, padding: 8 }}>
+            <Text style={{ fontFamily: F.sb, fontSize: 14, color: colors.accent, textDecorationLine: 'underline' }}>Notum yanlış okundu</Text>
+          </Pressable>
+        ) : null}
+        {elle ? (
+          <Cam radius={radius.xl} style={{ padding: 16, marginTop: 12 }}>
+            <Alan etiket={`${puanTuru} puanını belgede yazdığı gibi gir`} value={puanText} onChangeText={setPuanText} placeholder="Örn. 71,19513" keyboardType="decimal-pad" inputStyle={{ fontFamily: F.b, fontSize: 20 }} />
+            <Buton etiket="Puanı kaydet" onPress={elleKaydet} style={{ marginTop: 12 }} />
+          </Cam>
         ) : null}
         {sonuc?.basarili ? <Buton etiket="İlanlara dön" tip="ikincil" onPress={() => router.back()} style={{ marginTop: 12 }} /> : null}
 
