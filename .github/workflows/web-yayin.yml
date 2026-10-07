@@ -1,0 +1,39 @@
+# Web sürümünü derleyip FTP ile dkproject.tr/tiklaatan klasörüne yükler.
+# Çalışma: ana dala (main/master) push edilince ya da Actions sekmesinden elle.
+# Gerekli GitHub Secrets: FTP_SERVER, FTP_USER, FTP_PASSWORD, FTP_DIR
+# İsteğe bağlı Secrets (derlemeye gömülür): EXPO_PUBLIC_API_URL, EXPO_PUBLIC_GROQ_API_KEY, EXPO_PUBLIC_GEMINI_API_KEY
+name: Web yayını (FTP)
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Web derlemesi
+        run: npx expo export --platform web
+        env:
+          EXPO_PUBLIC_API_URL: ${{ secrets.EXPO_PUBLIC_API_URL }}
+          EXPO_PUBLIC_GROQ_API_KEY: ${{ secrets.EXPO_PUBLIC_GROQ_API_KEY }}
+          EXPO_PUBLIC_GEMINI_API_KEY: ${{ secrets.EXPO_PUBLIC_GEMINI_API_KEY }}
+
+      - name: FTP ile yükle
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist/
+          server-dir: ${{ secrets.FTP_DIR }}
