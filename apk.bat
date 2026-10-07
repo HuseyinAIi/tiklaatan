@@ -18,7 +18,7 @@ call npx eas-cli@latest init
 echo.
 echo [4/4] APK bulutta derleniyor - 10-20 dakika surebilir.
 echo       "Generate a new Android Keystore?" sorusuna Y de.
-call npx eas-cli@latest build -p android --profile apk
+call npx eas-cli@latest build -p android --profile apk --clear-cache
 echo.
 echo Bitti! Yukarida verilen linkten APK'yi indirip telefona kurabilirsin.
 echo Link ayrica https://expo.dev hesabinda "Builds" bolumunde durur.

@@ -6,3 +6,6 @@ web-build/
 *.log
 android/
 ios/
+dist.zip
+node_modules/
+.env
