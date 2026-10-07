@@ -1,0 +1,3605 @@
+{
+"ad": "ÖRNEK KPSS tercih kılavuzu (gerçek değildir)",
+"ornek": true,
+"programlar": [
+{
+"kod": "190979463",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Avukat",
+"il": "Eskişehir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"2021",
+"7030",
+"2017"
+],
+"gecenYilTaban": 77.135,
+"gecenYilTavan": 81.747,
+"ornek": true
+},
+{
+"kod": "190490988",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Avukat",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"1017",
+"1036"
+],
+"gecenYilTaban": 76.934,
+"gecenYilTavan": 84.431,
+"ornek": true
+},
+{
+"kod": "190747769",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Hemşire",
+"il": "İzmir",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3020",
+"2032",
+"7010"
+],
+"gecenYilTaban": 80.663,
+"gecenYilTavan": 83.249,
+"ornek": true
+},
+{
+"kod": "190153851",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Psikolog",
+"il": "Tokat",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7007"
+],
+"gecenYilTaban": 78.052,
+"gecenYilTavan": 79.71,
+"ornek": true
+},
+{
+"kod": "190134476",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Psikolog",
+"il": "Antalya",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1020"
+],
+"gecenYilTaban": 81.911,
+"gecenYilTavan": 86.211,
+"ornek": true
+},
+{
+"kod": "255190647",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Avukat",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6011",
+"3023"
+],
+"gecenYilTaban": 77.591,
+"gecenYilTavan": 82.414,
+"ornek": true
+},
+{
+"kod": "255515803",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Mühendis (İnşaat)",
+"il": "Mersin",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3014",
+"7035"
+],
+"gecenYilTaban": 79.218,
+"gecenYilTavan": 82.225,
+"ornek": true
+},
+{
+"kod": "255853707",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Çocuk Gelişimci",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"1022",
+"7018",
+"7033"
+],
+"gecenYilTaban": 78.868,
+"gecenYilTavan": 82.359,
+"ornek": true
+},
+{
+"kod": "121100472",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Mühendis (Bilgisayar)",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Bilgisayar mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"1002"
+],
+"gecenYilTaban": 80.416,
+"gecenYilTavan": 87.456,
+"ornek": true
+},
+{
+"kod": "157911213",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Mühendis (Bilgisayar)",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 6,
+"puanTuru": "P3",
+"nitelik": "Bilgisayar mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3012"
+],
+"gecenYilTaban": 81.937,
+"gecenYilTavan": 89.056,
+"ornek": true
+},
+{
+"kod": "129560359",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Mühendis (İnşaat)",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 20,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"6029",
+"3014"
+],
+"gecenYilTaban": 77.846,
+"gecenYilTavan": 82.849,
+"ornek": true
+},
+{
+"kod": "165174494",
+"kurum": "Ankara Üniversitesi",
+"unvan": "Avukat",
+"il": "Ankara",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6009",
+"1011",
+"3015"
+],
+"gecenYilTaban": 80.374,
+"gecenYilTavan": 85.508,
+"ornek": true
+},
+{
+"kod": "139702423",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Hemşire",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3030",
+"1037"
+],
+"gecenYilTaban": 75.955,
+"gecenYilTavan": 77.614,
+"ornek": true
+},
+{
+"kod": "186945840",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Hemşire",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2030"
+],
+"gecenYilTaban": 76.621,
+"gecenYilTavan": 82.605,
+"ornek": true
+},
+{
+"kod": "141636017",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Memur",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1010",
+"7029",
+"6006"
+],
+"gecenYilTaban": 80.171,
+"gecenYilTavan": 84.974,
+"ornek": true
+},
+{
+"kod": "120615750",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Mühendis (İnşaat)",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"6033",
+"6029"
+],
+"gecenYilTaban": 74.494,
+"gecenYilTavan": 81.194,
+"ornek": true
+},
+{
+"kod": "124560803",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Hemşire",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7011",
+"1019"
+],
+"gecenYilTaban": 77.591,
+"gecenYilTavan": 82.65,
+"ornek": true
+},
+{
+"kod": "144423772",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Psikolog",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6034",
+"6007",
+"3019"
+],
+"gecenYilTaban": 79.406,
+"gecenYilTavan": 86.709,
+"ornek": true
+},
+{
+"kod": "135205649",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Çocuk Gelişimci",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"6012",
+"3036",
+"1009"
+],
+"gecenYilTaban": 82.593,
+"gecenYilTavan": 89.225,
+"ornek": true
+},
+{
+"kod": "322543786",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Hemşire",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1018"
+],
+"gecenYilTaban": 76.692,
+"gecenYilTavan": 82.951,
+"ornek": true
+},
+{
+"kod": "322293752",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Mühendis (Bilgisayar)",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P3",
+"nitelik": "Bilgisayar mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"2034"
+],
+"gecenYilTaban": 79.781,
+"gecenYilTavan": 86.68,
+"ornek": true
+},
+{
+"kod": "322158745",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Mühendis (Bilgisayar)",
+"il": "Konya",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Bilgisayar mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3011",
+"3025"
+],
+"gecenYilTaban": 83.04,
+"gecenYilTavan": 89.159,
+"ornek": true
+},
+{
+"kod": "322699314",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Psikolog",
+"il": "Bursa",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1041",
+"7011",
+"1036"
+],
+"gecenYilTaban": 81.908,
+"gecenYilTavan": 86.041,
+"ornek": true
+},
+{
+"kod": "322170576",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Çocuk Gelişimci",
+"il": "İstanbul",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"7033",
+"6025"
+],
+"gecenYilTaban": 81.463,
+"gecenYilTavan": 88.178,
+"ornek": true
+},
+{
+"kod": "322662002",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Çocuk Gelişimci",
+"il": "Gaziantep",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"1015"
+],
+"gecenYilTaban": 81.083,
+"gecenYilTavan": 86.052,
+"ornek": true
+},
+{
+"kod": "163233665",
+"kurum": "Ege Üniversitesi",
+"unvan": "Avukat",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 20,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6005",
+"6026"
+],
+"gecenYilTaban": 80.52,
+"gecenYilTavan": 88.43,
+"ornek": true
+},
+{
+"kod": "119787232",
+"kurum": "Ege Üniversitesi",
+"unvan": "Hemşire",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 3,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7002",
+"1021"
+],
+"gecenYilTaban": 81.777,
+"gecenYilTavan": 89.766,
+"ornek": true
+},
+{
+"kod": "137513271",
+"kurum": "Ege Üniversitesi",
+"unvan": "Mühendis (İnşaat)",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"2023",
+"2005"
+],
+"gecenYilTaban": 78.527,
+"gecenYilTavan": 87.363,
+"ornek": true
+},
+{
+"kod": "146484369",
+"kurum": "Ege Üniversitesi",
+"unvan": "Mühendis (İnşaat)",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3032"
+],
+"gecenYilTaban": 83.169,
+"gecenYilTavan": 87.51,
+"ornek": true
+},
+{
+"kod": "172168920",
+"kurum": "Erciyes Üniversitesi",
+"unvan": "Mühendis (İnşaat)",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 15,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3008"
+],
+"gecenYilTaban": 75.641,
+"gecenYilTavan": 79.545,
+"ornek": true
+},
+{
+"kod": "153880645",
+"kurum": "Erciyes Üniversitesi",
+"unvan": "Psikolog",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2031",
+"7009"
+],
+"gecenYilTaban": 81.658,
+"gecenYilTavan": 87.594,
+"ornek": true
+},
+{
+"kod": "159757943",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Sosyal Çalışmacı",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2012"
+],
+"gecenYilTaban": 81.357,
+"gecenYilTavan": 84.315,
+"ornek": true
+},
+{
+"kod": "333407043",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Memur",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7019",
+"6007"
+],
+"gecenYilTaban": 79.828,
+"gecenYilTavan": 81.858,
+"ornek": true
+},
+{
+"kod": "333928206",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Çocuk Gelişimci",
+"il": "Diyarbakır",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"6036",
+"6007",
+"3001"
+],
+"gecenYilTaban": 77.331,
+"gecenYilTavan": 85.577,
+"ornek": true
+},
+{
+"kod": "244751760",
+"kurum": "Gençlik ve Spor Bakanlığı",
+"unvan": "Sosyal Çalışmacı",
+"il": "Bitlis",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1001",
+"1004"
+],
+"gecenYilTaban": 74.378,
+"gecenYilTavan": 81.147,
+"ornek": true
+},
+{
+"kod": "311233420",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Avukat",
+"il": "Muş",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6030",
+"7027",
+"7011"
+],
+"gecenYilTaban": 76.674,
+"gecenYilTavan": 79.436,
+"ornek": true
+},
+{
+"kod": "311447262",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Memur",
+"il": "Sivas",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1020"
+],
+"gecenYilTaban": 82.668,
+"gecenYilTavan": 88.561,
+"ornek": true
+},
+{
+"kod": "311762132",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Mühendis (İnşaat)",
+"il": "Eskişehir",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"7021",
+"1019"
+],
+"gecenYilTaban": 79.443,
+"gecenYilTavan": 81.153,
+"ornek": true
+},
+{
+"kod": "311649451",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Sosyal Çalışmacı",
+"il": "Diyarbakır",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1016"
+],
+"gecenYilTaban": 78.043,
+"gecenYilTavan": 83.29,
+"ornek": true
+},
+{
+"kod": "311848883",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Çocuk Gelişimci",
+"il": "Mersin",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"3036"
+],
+"gecenYilTaban": 78.829,
+"gecenYilTavan": 86.121,
+"ornek": true
+},
+{
+"kod": "277323631",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Memur",
+"il": "İstanbul",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6042",
+"6043",
+"3014"
+],
+"gecenYilTaban": 82.527,
+"gecenYilTavan": 85.275,
+"ornek": true
+},
+{
+"kod": "277283346",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Psikolog",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2034"
+],
+"gecenYilTaban": 80.194,
+"gecenYilTavan": 86.409,
+"ornek": true
+},
+{
+"kod": "344654380",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Mühendis (İnşaat)",
+"il": "Hakkari",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"2033"
+],
+"gecenYilTaban": 77.379,
+"gecenYilTavan": 83.135,
+"ornek": true
+},
+{
+"kod": "344277789",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Psikolog",
+"il": "Kars",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7033"
+],
+"gecenYilTaban": 75.946,
+"gecenYilTavan": 82.776,
+"ornek": true
+},
+{
+"kod": "266588226",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Avukat",
+"il": "Eskişehir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"7011",
+"6039",
+"6034"
+],
+"gecenYilTaban": 81.15,
+"gecenYilTavan": 84.175,
+"ornek": true
+},
+{
+"kod": "266152202",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Memur",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1041",
+"2001"
+],
+"gecenYilTaban": 87.385,
+"gecenYilTavan": 95.992,
+"ornek": true
+},
+{
+"kod": "266541994",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Sosyal Çalışmacı",
+"il": "Mersin",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2017",
+"1023",
+"6010"
+],
+"gecenYilTaban": 76.481,
+"gecenYilTavan": 84.009,
+"ornek": true
+},
+{
+"kod": "190693710",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Avukat",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"1027",
+"7021"
+],
+"gecenYilTaban": 78.228,
+"gecenYilTavan": 85.409,
+"ornek": true
+},
+{
+"kod": "156504519",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Memur",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7035",
+"1020",
+"2016"
+],
+"gecenYilTaban": 80.707,
+"gecenYilTavan": 85.315,
+"ornek": true
+},
+{
+"kod": "211441459",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Mühendis (İnşaat)",
+"il": "Elazığ",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"3015",
+"3040",
+"3001"
+],
+"gecenYilTaban": 78.466,
+"gecenYilTavan": 80.937,
+"ornek": true
+},
+{
+"kod": "211816857",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Sosyal Çalışmacı",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2025",
+"3015",
+"6030"
+],
+"gecenYilTaban": 80.975,
+"gecenYilTavan": 89.181,
+"ornek": true
+},
+{
+"kod": "211951697",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Çocuk Gelişimci",
+"il": "Ankara",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"2001"
+],
+"gecenYilTaban": 81.646,
+"gecenYilTavan": 88.824,
+"ornek": true
+},
+{
+"kod": "231126471",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Avukat",
+"il": "Diyarbakır",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"7041",
+"3003",
+"6008"
+],
+"gecenYilTaban": 74.867,
+"gecenYilTavan": 81.559,
+"ornek": true
+},
+{
+"kod": "231692857",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Avukat",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6010",
+"3002"
+],
+"gecenYilTaban": 75.383,
+"gecenYilTavan": 78.172,
+"ornek": true
+},
+{
+"kod": "231562964",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Memur",
+"il": "Denizli",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7022",
+"2040"
+],
+"gecenYilTaban": 79.015,
+"gecenYilTavan": 85.21,
+"ornek": true
+},
+{
+"kod": "231551365",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Mühendis (Bilgisayar)",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Bilgisayar mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"1041",
+"2040"
+],
+"gecenYilTaban": 76.14,
+"gecenYilTavan": 83.312,
+"ornek": true
+},
+{
+"kod": "231657614",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Psikolog",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7017"
+],
+"gecenYilTaban": 80.282,
+"gecenYilTavan": 82.413,
+"ornek": true
+},
+{
+"kod": "231642938",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Çocuk Gelişimci",
+"il": "Muş",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Çocuk gelişimi lisans mezunu olmak.",
+"nitelikKodlari": [
+"1036",
+"2018",
+"3026"
+],
+"gecenYilTaban": 74.8,
+"gecenYilTavan": 79.749,
+"ornek": true
+},
+{
+"kod": "299653097",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Memur",
+"il": "Denizli",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P3",
+"nitelik": "Herhangi bir lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2020",
+"2041",
+"2002"
+],
+"gecenYilTaban": 82.528,
+"gecenYilTavan": 85.332,
+"ornek": true
+},
+{
+"kod": "299773869",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Psikolog",
+"il": "Kars",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Psikoloji lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2039"
+],
+"gecenYilTaban": 81.854,
+"gecenYilTavan": 90.12,
+"ornek": true
+},
+{
+"kod": "299519216",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Sosyal Çalışmacı",
+"il": "Kars",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1020"
+],
+"gecenYilTaban": 77.908,
+"gecenYilTavan": 86.656,
+"ornek": true
+},
+{
+"kod": "288442098",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Avukat",
+"il": "Muş",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P3",
+"nitelik": "Hukuk fakültesi mezunu olmak; avukatlık ruhsatı.",
+"nitelikKodlari": [
+"6007"
+],
+"gecenYilTaban": 76.593,
+"gecenYilTavan": 79.722,
+"ornek": true
+},
+{
+"kod": "176934242",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Hemşire",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 10,
+"puanTuru": "P3",
+"nitelik": "Hemşirelik lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3005",
+"7028",
+"1015"
+],
+"gecenYilTaban": 73.923,
+"gecenYilTavan": 77.735,
+"ornek": true
+},
+{
+"kod": "355566183",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Mühendis (İnşaat)",
+"il": "Tokat",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "İnşaat mühendisliği lisans mezunu olmak.",
+"nitelikKodlari": [
+"6007",
+"3030"
+],
+"gecenYilTaban": 76.557,
+"gecenYilTavan": 83.547,
+"ornek": true
+},
+{
+"kod": "355124276",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Sosyal Çalışmacı",
+"il": "Bitlis",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P3",
+"nitelik": "Sosyal hizmet lisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6035",
+"3021",
+"3035"
+],
+"gecenYilTaban": 73.068,
+"gecenYilTavan": 81.956,
+"ornek": true
+},
+{
+"kod": "190451182",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Hemşire",
+"il": "İstanbul",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2020",
+"6020",
+"3030"
+],
+"gecenYilTaban": 76.103,
+"gecenYilTavan": 84.832,
+"ornek": true
+},
+{
+"kod": "190712064",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Hemşire",
+"il": "Kars",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2032",
+"1035",
+"3015"
+],
+"gecenYilTaban": 72.883,
+"gecenYilTavan": 79.151,
+"ornek": true
+},
+{
+"kod": "190791555",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Hemşire",
+"il": "Tokat",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6012",
+"3008"
+],
+"gecenYilTaban": 73.3,
+"gecenYilTavan": 75.893,
+"ornek": true
+},
+{
+"kod": "190676401",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Laborant",
+"il": "Antalya",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P93",
+"nitelik": "Tıbbi laboratuvar teknikleri önlisans mezunu olmak.",
+"nitelikKodlari": [
+"1023",
+"6037",
+"1013"
+],
+"gecenYilTaban": 77.41,
+"gecenYilTavan": 85.655,
+"ornek": true
+},
+{
+"kod": "190231109",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Laborant",
+"il": "Adana",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Tıbbi laboratuvar teknikleri önlisans mezunu olmak.",
+"nitelikKodlari": [
+"6045",
+"6008"
+],
+"gecenYilTaban": 75.703,
+"gecenYilTavan": 82.229,
+"ornek": true
+},
+{
+"kod": "255373259",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Bilgisayar İşletmeni",
+"il": "İstanbul",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"7029"
+],
+"gecenYilTaban": 76.863,
+"gecenYilTavan": 83.901,
+"ornek": true
+},
+{
+"kod": "255409843",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Ebe",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6045"
+],
+"gecenYilTaban": 79.855,
+"gecenYilTavan": 84.687,
+"ornek": true
+},
+{
+"kod": "255848380",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Tekniker (Elektrik)",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2020"
+],
+"gecenYilTaban": 73.105,
+"gecenYilTavan": 81.276,
+"ornek": true
+},
+{
+"kod": "121473253",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Memur",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Herhangi bir önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7002"
+],
+"gecenYilTaban": 76.928,
+"gecenYilTavan": 80.968,
+"ornek": true
+},
+{
+"kod": "119973602",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Tekniker (Elektrik)",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 3,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1019"
+],
+"gecenYilTaban": 77.502,
+"gecenYilTavan": 86.065,
+"ornek": true
+},
+{
+"kod": "174114155",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Ebe",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 20,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7028",
+"6044"
+],
+"gecenYilTaban": 73.569,
+"gecenYilTavan": 79.012,
+"ornek": true
+},
+{
+"kod": "143706484",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Ebe",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 4,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2039",
+"7012"
+],
+"gecenYilTaban": 70.173,
+"gecenYilTavan": 78.107,
+"ornek": true
+},
+{
+"kod": "131777527",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Bilgisayar İşletmeni",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"2030",
+"1002",
+"3005"
+],
+"gecenYilTaban": 74.218,
+"gecenYilTavan": 77.81,
+"ornek": true
+},
+{
+"kod": "199825966",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Ebe",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3011",
+"1015",
+"6013"
+],
+"gecenYilTaban": 79.195,
+"gecenYilTavan": 82.381,
+"ornek": true
+},
+{
+"kod": "180363589",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Ebe",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 10,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6028",
+"2013",
+"2024"
+],
+"gecenYilTaban": 74.833,
+"gecenYilTavan": 77.231,
+"ornek": true
+},
+{
+"kod": "164818241",
+"kurum": "Atatürk Üniversitesi",
+"unvan": "Sağlık Teknikeri (Anestezi)",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 10,
+"puanTuru": "P93",
+"nitelik": "Anestezi önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1003"
+],
+"gecenYilTaban": 75.47,
+"gecenYilTavan": 80.421,
+"ornek": true
+},
+{
+"kod": "322682379",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Bilgisayar İşletmeni",
+"il": "Sinop",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"2018",
+"6045"
+],
+"gecenYilTaban": 77.524,
+"gecenYilTavan": 79.393,
+"ornek": true
+},
+{
+"kod": "322669302",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Sağlık Teknikeri (Anestezi)",
+"il": "Şırnak",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P93",
+"nitelik": "Anestezi önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6021",
+"3029",
+"2012"
+],
+"gecenYilTaban": 70.808,
+"gecenYilTavan": 76.426,
+"ornek": true
+},
+{
+"kod": "137940681",
+"kurum": "Ege Üniversitesi",
+"unvan": "Bilgisayar İşletmeni",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"6030"
+],
+"gecenYilTaban": 78.334,
+"gecenYilTavan": 85.892,
+"ornek": true
+},
+{
+"kod": "122666872",
+"kurum": "Ege Üniversitesi",
+"unvan": "Ebe",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7015",
+"1023",
+"7032"
+],
+"gecenYilTaban": 81.595,
+"gecenYilTavan": 88.218,
+"ornek": true
+},
+{
+"kod": "123717914",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Laborant",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 15,
+"puanTuru": "P93",
+"nitelik": "Tıbbi laboratuvar teknikleri önlisans mezunu olmak.",
+"nitelikKodlari": [
+"6007",
+"2029",
+"7002"
+],
+"gecenYilTaban": 72.978,
+"gecenYilTavan": 75.017,
+"ornek": true
+},
+{
+"kod": "153966891",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Memur",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Herhangi bir önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7032"
+],
+"gecenYilTaban": 77.396,
+"gecenYilTavan": 83.723,
+"ornek": true
+},
+{
+"kod": "185329182",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Tekniker (Elektrik)",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 8,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1034",
+"6013"
+],
+"gecenYilTaban": 73.558,
+"gecenYilTavan": 78.8,
+"ornek": true
+},
+{
+"kod": "126258066",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Tekniker (Elektrik)",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3011"
+],
+"gecenYilTaban": 76.343,
+"gecenYilTavan": 81.772,
+"ornek": true
+},
+{
+"kod": "333977047",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Bilgisayar İşletmeni",
+"il": "İstanbul",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"2041",
+"7033"
+],
+"gecenYilTaban": 80.632,
+"gecenYilTavan": 86.345,
+"ornek": true
+},
+{
+"kod": "333180802",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Hemşire",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6009",
+"1024"
+],
+"gecenYilTaban": 77.776,
+"gecenYilTavan": 82.773,
+"ornek": true
+},
+{
+"kod": "333266868",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Tekniker (Elektrik)",
+"il": "Kayseri",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7031",
+"1005",
+"2001"
+],
+"gecenYilTaban": 76.943,
+"gecenYilTavan": 84.072,
+"ornek": true
+},
+{
+"kod": "244650210",
+"kurum": "Gençlik ve Spor Bakanlığı",
+"unvan": "Ebe",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3006",
+"3011"
+],
+"gecenYilTaban": 76.155,
+"gecenYilTavan": 83.658,
+"ornek": true
+},
+{
+"kod": "244704243",
+"kurum": "Gençlik ve Spor Bakanlığı",
+"unvan": "Sağlık Teknikeri (Anestezi)",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Anestezi önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7012",
+"3035",
+"1002"
+],
+"gecenYilTaban": 75.937,
+"gecenYilTavan": 81.897,
+"ornek": true
+},
+{
+"kod": "311276320",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Ebe",
+"il": "Eskişehir",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7036"
+],
+"gecenYilTaban": 74.397,
+"gecenYilTavan": 78.246,
+"ornek": true
+},
+{
+"kod": "311482619",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Ebe",
+"il": "Sinop",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6045"
+],
+"gecenYilTaban": 75.644,
+"gecenYilTavan": 82.355,
+"ornek": true
+},
+{
+"kod": "277360123",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Ebe",
+"il": "Tokat",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1023",
+"2001"
+],
+"gecenYilTaban": 76.316,
+"gecenYilTavan": 81.904,
+"ornek": true
+},
+{
+"kod": "277143289",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Laborant",
+"il": "Bursa",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P93",
+"nitelik": "Tıbbi laboratuvar teknikleri önlisans mezunu olmak.",
+"nitelikKodlari": [
+"2039",
+"2029"
+],
+"gecenYilTaban": 74.922,
+"gecenYilTavan": 78.767,
+"ornek": true
+},
+{
+"kod": "277495742",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Tekniker (Elektrik)",
+"il": "Mersin",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1023",
+"6027"
+],
+"gecenYilTaban": 76.015,
+"gecenYilTavan": 79.948,
+"ornek": true
+},
+{
+"kod": "344408240",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Ebe",
+"il": "Kars",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7004",
+"1022",
+"6021"
+],
+"gecenYilTaban": 71.711,
+"gecenYilTavan": 79.689,
+"ornek": true
+},
+{
+"kod": "266879188",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Bilgisayar İşletmeni",
+"il": "Ağrı",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"1016"
+],
+"gecenYilTaban": 71.337,
+"gecenYilTavan": 75.671,
+"ornek": true
+},
+{
+"kod": "266742010",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Memur",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P93",
+"nitelik": "Herhangi bir önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7025",
+"1024"
+],
+"gecenYilTaban": 76.276,
+"gecenYilTavan": 82.628,
+"ornek": true
+},
+{
+"kod": "189492161",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Tekniker (Elektrik)",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "THS",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7006"
+],
+"gecenYilTaban": 76.505,
+"gecenYilTavan": 81.853,
+"ornek": true
+},
+{
+"kod": "211766812",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Hemşire",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1027",
+"2021",
+"3001"
+],
+"gecenYilTaban": 78.554,
+"gecenYilTavan": 84.565,
+"ornek": true
+},
+{
+"kod": "211111881",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Memur",
+"il": "Bitlis",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Herhangi bir önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3013"
+],
+"gecenYilTaban": 75.497,
+"gecenYilTavan": 84.026,
+"ornek": true
+},
+{
+"kod": "211216624",
+"kurum": "Sosyal Güvenlik Kurumu",
+"unvan": "Sağlık Teknikeri (Anestezi)",
+"il": "Erzurum",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Anestezi önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1015",
+"6040",
+"3009"
+],
+"gecenYilTaban": 75.789,
+"gecenYilTavan": 81.332,
+"ornek": true
+},
+{
+"kod": "231588909",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Ebe",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7028"
+],
+"gecenYilTaban": 78.07,
+"gecenYilTavan": 80.69,
+"ornek": true
+},
+{
+"kod": "231597403",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Laborant",
+"il": "Muş",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Tıbbi laboratuvar teknikleri önlisans mezunu olmak.",
+"nitelikKodlari": [
+"2021",
+"2032",
+"7008"
+],
+"gecenYilTaban": 73.124,
+"gecenYilTavan": 80.795,
+"ornek": true
+},
+{
+"kod": "231164321",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Memur",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P93",
+"nitelik": "Herhangi bir önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6027",
+"1004"
+],
+"gecenYilTaban": 74.693,
+"gecenYilTavan": 79.506,
+"ornek": true
+},
+{
+"kod": "299925438",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Bilgisayar İşletmeni",
+"il": "Samsun",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P93",
+"nitelik": "Bilgisayar programcılığı önlisans mezunu olmak.",
+"nitelikKodlari": [
+"6034"
+],
+"gecenYilTaban": 74.593,
+"gecenYilTavan": 82.745,
+"ornek": true
+},
+{
+"kod": "299575413",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Tekniker (Elektrik)",
+"il": "Kayseri",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6035",
+"6045",
+"2001"
+],
+"gecenYilTaban": 71.974,
+"gecenYilTavan": 73.84,
+"ornek": true
+},
+{
+"kod": "288392681",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Hemşire",
+"il": "İstanbul",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1019"
+],
+"gecenYilTaban": 78.056,
+"gecenYilTavan": 84.445,
+"ornek": true
+},
+{
+"kod": "288682884",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Hemşire",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6044"
+],
+"gecenYilTaban": 80.04,
+"gecenYilTavan": 84.641,
+"ornek": true
+},
+{
+"kod": "288503917",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Hemşire",
+"il": "Muş",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"6033",
+"3017"
+],
+"gecenYilTaban": 75.022,
+"gecenYilTavan": 77.034,
+"ornek": true
+},
+{
+"kod": "288480716",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Hemşire",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"7017"
+],
+"gecenYilTaban": 74.829,
+"gecenYilTavan": 81.213,
+"ornek": true
+},
+{
+"kod": "150870979",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Ebe",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 15,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1023",
+"7034",
+"2034"
+],
+"gecenYilTaban": 73.581,
+"gecenYilTavan": 78.319,
+"ornek": true
+},
+{
+"kod": "149735867",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Ebe",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"1013"
+],
+"gecenYilTaban": 74.442,
+"gecenYilTavan": 76.769,
+"ornek": true
+},
+{
+"kod": "355153544",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Ebe",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P93",
+"nitelik": "Ebelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"3010",
+"3041"
+],
+"gecenYilTaban": 72.082,
+"gecenYilTavan": 75.008,
+"ornek": true
+},
+{
+"kod": "355181690",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Hemşire",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "SH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P93",
+"nitelik": "Hemşirelik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2004"
+],
+"gecenYilTaban": 77.63,
+"gecenYilTavan": 80.767,
+"ornek": true
+},
+{
+"kod": "355157001",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Tekniker (Elektrik)",
+"il": "Sinop",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "THS",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P93",
+"nitelik": "Elektrik önlisans programı mezunu olmak.",
+"nitelikKodlari": [
+"2007",
+"6019"
+],
+"gecenYilTaban": 76.108,
+"gecenYilTavan": 82.354,
+"ornek": true
+},
+{
+"kod": "190121464",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Ardahan",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"7014"
+],
+"gecenYilTaban": 73.615,
+"gecenYilTavan": 80.447,
+"ornek": true
+},
+{
+"kod": "190228644",
+"kurum": "Adalet Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Şırnak",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"1009"
+],
+"gecenYilTaban": 79.988,
+"gecenYilTavan": 82.704,
+"ornek": true
+},
+{
+"kod": "255298995",
+"kurum": "Aile ve Sosyal Hizmetler Bakanlığı",
+"unvan": "Hizmetli",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"3019"
+],
+"gecenYilTaban": 71.245,
+"gecenYilTavan": 77.712,
+"ornek": true
+},
+{
+"kod": "175321541",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Ambar Memuru",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"6013",
+"7021"
+],
+"gecenYilTaban": 79.648,
+"gecenYilTavan": 82.097,
+"ornek": true
+},
+{
+"kod": "113765087",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"3024",
+"6005"
+],
+"gecenYilTaban": 79.708,
+"gecenYilTavan": 86.069,
+"ornek": true
+},
+{
+"kod": "176213304",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Hizmetli",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 8,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"3027"
+],
+"gecenYilTaban": 77.556,
+"gecenYilTavan": 83.25,
+"ornek": true
+},
+{
+"kod": "113862447",
+"kurum": "Akdeniz Üniversitesi",
+"unvan": "Şoför",
+"il": "Antalya",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"3027"
+],
+"gecenYilTaban": 80.26,
+"gecenYilTavan": 84.239,
+"ornek": true
+},
+{
+"kod": "155760693",
+"kurum": "Ankara Üniversitesi",
+"unvan": "Hizmetli",
+"il": "Ankara",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 15,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"7021"
+],
+"gecenYilTaban": 75.187,
+"gecenYilTavan": 78.078,
+"ornek": true
+},
+{
+"kod": "120571497",
+"kurum": "Ardahan Üniversitesi",
+"unvan": "Memur",
+"il": "Ardahan",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"6025"
+],
+"gecenYilTaban": 75.2,
+"gecenYilTavan": 82.826,
+"ornek": true
+},
+{
+"kod": "322779713",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Mersin",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1026",
+"2001"
+],
+"gecenYilTaban": 78.514,
+"gecenYilTavan": 83.197,
+"ornek": true
+},
+{
+"kod": "322260545",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Diyarbakır",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2009",
+"7004",
+"1018"
+],
+"gecenYilTaban": 73.627,
+"gecenYilTavan": 79.262,
+"ornek": true
+},
+{
+"kod": "322891576",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Hizmetli",
+"il": "Muş",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1030",
+"6027"
+],
+"gecenYilTaban": 71.802,
+"gecenYilTavan": 77.503,
+"ornek": true
+},
+{
+"kod": "322644154",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 5,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"3030"
+],
+"gecenYilTaban": 77.396,
+"gecenYilTavan": 79.803,
+"ornek": true
+},
+{
+"kod": "322615887",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Memur",
+"il": "Samsun",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"2035",
+"2031",
+"7009"
+],
+"gecenYilTaban": 78.613,
+"gecenYilTavan": 87.06,
+"ornek": true
+},
+{
+"kod": "322681852",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Bursa",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"3010",
+"2002"
+],
+"gecenYilTaban": 82.853,
+"gecenYilTavan": 88.413,
+"ornek": true
+},
+{
+"kod": "322114714",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Erzurum",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"1029"
+],
+"gecenYilTaban": 79.576,
+"gecenYilTavan": 82.174,
+"ornek": true
+},
+{
+"kod": "322589247",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"7011",
+"2038",
+"7014"
+],
+"gecenYilTaban": 77.469,
+"gecenYilTavan": 82.701,
+"ornek": true
+},
+{
+"kod": "322377888",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"1002"
+],
+"gecenYilTaban": 78.181,
+"gecenYilTavan": 83.781,
+"ornek": true
+},
+{
+"kod": "322929155",
+"kurum": "Devlet Su İşleri Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Ağrı",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"7018",
+"7041"
+],
+"gecenYilTaban": 74.696,
+"gecenYilTavan": 82.044,
+"ornek": true
+},
+{
+"kod": "128107932",
+"kurum": "Ege Üniversitesi",
+"unvan": "Hizmetli",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1023"
+],
+"gecenYilTaban": 77.992,
+"gecenYilTavan": 79.794,
+"ornek": true
+},
+{
+"kod": "192125941",
+"kurum": "Erciyes Üniversitesi",
+"unvan": "Hizmetli",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"3024",
+"6032",
+"1026"
+],
+"gecenYilTaban": 77.375,
+"gecenYilTavan": 83.206,
+"ornek": true
+},
+{
+"kod": "143954583",
+"kurum": "Erciyes Üniversitesi",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"3030",
+"2021"
+],
+"gecenYilTaban": 76.249,
+"gecenYilTavan": 85.243,
+"ornek": true
+},
+{
+"kod": "147914512",
+"kurum": "Gaziantep Üniversitesi",
+"unvan": "Şoför",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"6005",
+"1007"
+],
+"gecenYilTaban": 79.961,
+"gecenYilTavan": 84.548,
+"ornek": true
+},
+{
+"kod": "333241920",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Memur",
+"il": "Hakkari",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"3033",
+"6029",
+"2034"
+],
+"gecenYilTaban": 73.039,
+"gecenYilTavan": 79.553,
+"ornek": true
+},
+{
+"kod": "333194428",
+"kurum": "Gelir İdaresi Başkanlığı",
+"unvan": "Şoför",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"6017",
+"2016"
+],
+"gecenYilTaban": 77.614,
+"gecenYilTavan": 85.632,
+"ornek": true
+},
+{
+"kod": "181802868",
+"kurum": "Karadeniz Teknik Üniversitesi",
+"unvan": "Ambar Memuru",
+"il": "Trabzon",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 8,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2007",
+"3007",
+"6015"
+],
+"gecenYilTaban": 78.257,
+"gecenYilTavan": 83.978,
+"ornek": true
+},
+{
+"kod": "125999091",
+"kurum": "Karadeniz Teknik Üniversitesi",
+"unvan": "Memur",
+"il": "Trabzon",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"3030",
+"7041"
+],
+"gecenYilTaban": 79.312,
+"gecenYilTavan": 85.021,
+"ornek": true
+},
+{
+"kod": "154858237",
+"kurum": "Karadeniz Teknik Üniversitesi",
+"unvan": "Şoför",
+"il": "Trabzon",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 15,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"1036",
+"7019"
+],
+"gecenYilTaban": 75.362,
+"gecenYilTavan": 81.645,
+"ornek": true
+},
+{
+"kod": "126599062",
+"kurum": "Karadeniz Teknik Üniversitesi",
+"unvan": "Şoför",
+"il": "Trabzon",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 8,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"3001",
+"1015"
+],
+"gecenYilTaban": 76.985,
+"gecenYilTavan": 84.322,
+"ornek": true
+},
+{
+"kod": "311648632",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Ambar Memuru",
+"il": "Bursa",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1040",
+"6035",
+"2031"
+],
+"gecenYilTaban": 78.461,
+"gecenYilTavan": 87.181,
+"ornek": true
+},
+{
+"kod": "311861920",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Sinop",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"6021"
+],
+"gecenYilTaban": 82.834,
+"gecenYilTavan": 90.889,
+"ornek": true
+},
+{
+"kod": "311225242",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "İstanbul",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 8,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"3033",
+"3025",
+"3023"
+],
+"gecenYilTaban": 78.887,
+"gecenYilTavan": 87.73,
+"ornek": true
+},
+{
+"kod": "311232432",
+"kurum": "Karayolları Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Tokat",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"6029",
+"6020"
+],
+"gecenYilTaban": 80.392,
+"gecenYilTavan": 85.078,
+"ornek": true
+},
+{
+"kod": "277776809",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"7035",
+"3031",
+"7006"
+],
+"gecenYilTaban": 77.266,
+"gecenYilTavan": 84.21,
+"ornek": true
+},
+{
+"kod": "277906914",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Ankara",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"1033"
+],
+"gecenYilTaban": 82.901,
+"gecenYilTavan": 87.052,
+"ornek": true
+},
+{
+"kod": "277669110",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Tokat",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"6031"
+],
+"gecenYilTaban": 77.155,
+"gecenYilTavan": 82.514,
+"ornek": true
+},
+{
+"kod": "277264373",
+"kurum": "Milli Eğitim Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Şırnak",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"7037",
+"7014"
+],
+"gecenYilTaban": 74.181,
+"gecenYilTavan": 78.321,
+"ornek": true
+},
+{
+"kod": "344640198",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Hizmetli",
+"il": "Gaziantep",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"6016",
+"6035"
+],
+"gecenYilTaban": 77.359,
+"gecenYilTavan": 84.747,
+"ornek": true
+},
+{
+"kod": "344173662",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Memur",
+"il": "Hakkari",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"6041",
+"1025",
+"7030"
+],
+"gecenYilTaban": 72.833,
+"gecenYilTavan": 78.76,
+"ornek": true
+},
+{
+"kod": "344966305",
+"kurum": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+"unvan": "Şoför",
+"il": "Hakkari",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"6040",
+"1019"
+],
+"gecenYilTaban": 74.551,
+"gecenYilTavan": 79.886,
+"ornek": true
+},
+{
+"kod": "266354601",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "Tokat",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1015",
+"7010"
+],
+"gecenYilTaban": 75.054,
+"gecenYilTavan": 76.64,
+"ornek": true
+},
+{
+"kod": "266794270",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "İzmir",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2021"
+],
+"gecenYilTaban": 83.496,
+"gecenYilTavan": 86.986,
+"ornek": true
+},
+{
+"kod": "266879122",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Mersin",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 20,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"2028",
+"3022",
+"1021"
+],
+"gecenYilTaban": 76.42,
+"gecenYilTavan": 79.078,
+"ornek": true
+},
+{
+"kod": "266778670",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Ardahan",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"1035"
+],
+"gecenYilTaban": 74.247,
+"gecenYilTavan": 76.003,
+"ornek": true
+},
+{
+"kod": "266543183",
+"kurum": "Sağlık Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"7011",
+"7002"
+],
+"gecenYilTaban": 76.392,
+"gecenYilTavan": 82.75,
+"ornek": true
+},
+{
+"kod": "191453199",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 4,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"6045"
+],
+"gecenYilTaban": 80.353,
+"gecenYilTavan": 86.909,
+"ornek": true
+},
+{
+"kod": "127366183",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Memur",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"2024",
+"3033"
+],
+"gecenYilTaban": 77.845,
+"gecenYilTavan": 85.412,
+"ornek": true
+},
+{
+"kod": "143345673",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"2036",
+"1018"
+],
+"gecenYilTaban": 77.868,
+"gecenYilTavan": 84.07,
+"ornek": true
+},
+{
+"kod": "137542470",
+"kurum": "Selçuk Üniversitesi",
+"unvan": "Şoför",
+"il": "Konya",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"6034",
+"3014",
+"3041"
+],
+"gecenYilTaban": 80.332,
+"gecenYilTavan": 85.851,
+"ornek": true
+},
+{
+"kod": "231738955",
+"kurum": "Tapu ve Kadastro Genel Müdürlüğü",
+"unvan": "Ambar Memuru",
+"il": "Mersin",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1030"
+],
+"gecenYilTaban": 76.791,
+"gecenYilTavan": 79.089,
+"ornek": true
+},
+{
+"kod": "299408673",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 4,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1003",
+"2039"
+],
+"gecenYilTaban": 78.319,
+"gecenYilTavan": 83.067,
+"ornek": true
+},
+{
+"kod": "299330062",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Elazığ",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2039",
+"2020"
+],
+"gecenYilTaban": 75.466,
+"gecenYilTavan": 79.441,
+"ornek": true
+},
+{
+"kod": "299522648",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Hizmetli",
+"il": "Trabzon",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2013",
+"6019"
+],
+"gecenYilTaban": 73.646,
+"gecenYilTavan": 81.575,
+"ornek": true
+},
+{
+"kod": "299517488",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Kars",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"3027",
+"7031",
+"7034"
+],
+"gecenYilTaban": 75.391,
+"gecenYilTavan": 83.457,
+"ornek": true
+},
+{
+"kod": "299477570",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Sinop",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"1036"
+],
+"gecenYilTaban": 74.754,
+"gecenYilTavan": 81.208,
+"ornek": true
+},
+{
+"kod": "299849528",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Memur",
+"il": "Sinop",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise ve dengi okul mezunu olmak.",
+"nitelikKodlari": [
+"7011",
+"1012",
+"2028"
+],
+"gecenYilTaban": 79.614,
+"gecenYilTavan": 81.705,
+"ornek": true
+},
+{
+"kod": "299534201",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Bitlis",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"6024"
+],
+"gecenYilTaban": 76.126,
+"gecenYilTavan": 80.816,
+"ornek": true
+},
+{
+"kod": "299510871",
+"kurum": "Tarım ve Orman Bakanlığı",
+"unvan": "Şoför",
+"il": "Ankara",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"2035"
+],
+"gecenYilTaban": 82.435,
+"gecenYilTavan": 84.134,
+"ornek": true
+},
+{
+"kod": "288342572",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "Gaziantep",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1030"
+],
+"gecenYilTaban": 79.202,
+"gecenYilTavan": 87.061,
+"ornek": true
+},
+{
+"kod": "288261249",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "Şırnak",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 10,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"1023",
+"7027"
+],
+"gecenYilTaban": 72.334,
+"gecenYilTavan": 78.544,
+"ornek": true
+},
+{
+"kod": "288686832",
+"kurum": "Ticaret Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "Bitlis",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 3,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"3030"
+],
+"gecenYilTaban": 74.812,
+"gecenYilTavan": 82.262,
+"ornek": true
+},
+{
+"kod": "175751673",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Hizmetli",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 20,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"6041",
+"7032",
+"7029"
+],
+"gecenYilTaban": 75.083,
+"gecenYilTavan": 83.294,
+"ornek": true
+},
+{
+"kod": "171245392",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Koruma ve Güvenlik Görevlisi",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; özel güvenlik kimlik kartı.",
+"nitelikKodlari": [
+"7006",
+"2036",
+"1033"
+],
+"gecenYilTaban": 76.12,
+"gecenYilTavan": 84.809,
+"ornek": true
+},
+{
+"kod": "128640008",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 1,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"1024",
+"1024",
+"3014"
+],
+"gecenYilTaban": 76.241,
+"gecenYilTavan": 84.395,
+"ornek": true
+},
+{
+"kod": "175736072",
+"kurum": "Van Yüzüncü Yıl Üniversitesi",
+"unvan": "Veri Hazırlama ve Kontrol İşletmeni",
+"il": "Van",
+"ilce": "Merkez",
+"kadroTuru": "GİH",
+"istihdam": "Sözleşmeli (4/B)",
+"kontenjan": 5,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; bilgisayar sertifikası.",
+"nitelikKodlari": [
+"3032",
+"3017"
+],
+"gecenYilTaban": 75.769,
+"gecenYilTavan": 79.875,
+"ornek": true
+},
+{
+"kod": "355751243",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Ambar Memuru",
+"il": "İzmir",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "GİH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"7018"
+],
+"gecenYilTaban": 84.633,
+"gecenYilTavan": 87.992,
+"ornek": true
+},
+{
+"kod": "355641690",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Destek Personeli (Temizlik)",
+"il": "Ağrı",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 2,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"2033",
+"1006",
+"2025"
+],
+"gecenYilTaban": 70.584,
+"gecenYilTavan": 74.938,
+"ornek": true
+},
+{
+"kod": "355672136",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Hizmetli",
+"il": "Bitlis",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 12,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak.",
+"nitelikKodlari": [
+"7026",
+"3036"
+],
+"gecenYilTaban": 70.283,
+"gecenYilTavan": 78.754,
+"ornek": true
+},
+{
+"kod": "355969324",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Şoför",
+"il": "Diyarbakır",
+"ilce": "Tüm İlçeler",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 15,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"3013",
+"3023"
+],
+"gecenYilTaban": 77.386,
+"gecenYilTavan": 80.63,
+"ornek": true
+},
+{
+"kod": "355234206",
+"kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+"unvan": "Şoför",
+"il": "Kayseri",
+"ilce": "Merkez",
+"kadroTuru": "YH",
+"istihdam": "Kadrolu (657/4-A)",
+"kontenjan": 6,
+"puanTuru": "P94",
+"nitelik": "Lise mezunu olmak; en az B sınıfı sürücü belgesi.",
+"nitelikKodlari": [
+"2012",
+"1012"
+],
+"gecenYilTaban": 77.626,
+"gecenYilTavan": 84.323,
+"ornek": true
+}
+]
+}
