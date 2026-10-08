@@ -37,13 +37,23 @@ jobs:
           path: dist/
           retention-days: 14
 
-      - name: FTP ile yükle
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          protocol: ftps
-          security: loose # sertifika adı IP ile eşleşmeyebilir
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/
-          server-dir: ${{ secrets.FTP_DIR }}
+      # lftp: bağlantı kesilirse kendiliğinden yeniden bağlanıp kaldığı yerden devam eder.
+      - name: FTP ile yükle (lftp)
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DIR: ${{ secrets.FTP_DIR }}
+        run: |
+          sudo apt-get install -y lftp >/dev/null
+          lftp -u "$FTP_USER","$FTP_PASSWORD" "ftp://$FTP_SERVER" -e "
+            set ftp:ssl-force true
+            set ftp:ssl-protect-data true
+            set ssl:verify-certificate no
+            set net:max-retries 30
+            set net:reconnect-interval-base 4
+            set net:timeout 20
+            mkdir -p \"$FTP_DIR\"
+            mirror -R --verbose --parallel=1 --no-perms dist/ \"$FTP_DIR\"
+            bye
+          "
